@@ -138,6 +138,10 @@ body {
   color: inherit;
 }
 
+.header__container--tow__left form select:focus {
+  outline: none;
+}
+
 .header__container--tow__left form select option {
   color: inherit;
   background: white;
@@ -180,6 +184,10 @@ body {
   color: inherit;
   border: none;
   padding-right: 3rem;
+}
+
+.header__container--three--one select:focus {
+  outline: none;
 }
 
 .header__container--three--one select option {
@@ -242,6 +250,10 @@ body {
   font-size: 1.6rem;
   color: inherit;
   font-weight: 800;
+}
+
+.header__container--three--tow select:focus {
+  outline: none;
 }
 
 .header__container--three--tow select:hover {

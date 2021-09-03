@@ -120,6 +120,11 @@ body{
                     border: none;
                     padding-right: 1rem;
                     color: inherit;
+                    
+                   &:focus{
+                    //    border: none;
+                    outline: none;}
+
                     & option{
                         color: inherit;
                         background: white;
@@ -164,6 +169,9 @@ body{
                 color: inherit;
                 border: none;
                 padding-right: 3rem;
+                &:focus{
+                    //    border: none;
+                    outline: none;}
 
                 & option{
                         color: inherit;
@@ -213,6 +221,9 @@ body{
                 color: inherit;
                 font-weight: 800;
                 // padding-bottom: 1rem;
+                &:focus{
+                    //    border: none;
+                    outline: none;}
                 &:hover{
                     color:  #336699;
                 }

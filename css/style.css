@@ -320,6 +320,11 @@ main .caontainer__part--one--grab--right--div button {
   border-radius: 3px;
 }
 
+main .caontainer__part--one--grab--right--div button:hover {
+  background-color: #333;
+  color: white;
+}
+
 .custom {
   font-size: 5rem;
   color: inherit;

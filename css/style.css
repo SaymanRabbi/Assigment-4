@@ -68,13 +68,18 @@ body {
   font-size: 1.2rem;
 }
 
+.header__container--one__right ul a svg {
+  color: black;
+  font-weight: bold;
+}
+
 .header__container--one__right ul a:hover {
   color: #336699;
 }
 
 .header__container--tow {
   width: 100%;
-  padding-top: 6rem;
+  padding-top: 2rem;
 }
 
 .header__container--tow__grab2 {
@@ -104,14 +109,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 4rem;
   width: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  max-width: 55.6rem;
+  max-width: 60.6rem;
   border: 2px solid   #336699;
   border-radius: 2px;
+  margin: 0 auto;
 }
 
 .header__container--tow__left form input {
@@ -165,6 +170,14 @@ body {
   color: inherit;
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+.header__container--tow__right h3 a svg {
+  color: black;
+}
+
+.header__container--tow__right h3 a svg:hover {
+  color: #336699;
 }
 
 .header__container--tow__right h3 a:hover {
@@ -245,7 +258,7 @@ body {
 }
 
 .header__container--three--tow select {
-  padding-left: 4rem;
+  padding-left: 0rem;
   border: none;
   font-size: 1.6rem;
   color: inherit;
@@ -373,5 +386,143 @@ main .caontainer__part--one--grab--right--div button:hover {
   font-size: 3rem;
   font-weight: 400;
   color: #f77c29;
+}
+
+.four__column--container {
+  width: 100%;
+  margin-top: 3rem;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  height: 12rem;
+}
+
+.four__column--container--grab {
+  padding: 2rem 5rem;
+}
+
+.four__column--container--grab--put {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.four__column--container--grab--put--one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.four__column--container--grab--put--one--icon svg {
+  color: #336699;
+}
+
+.four__column--container--grab--put--one--content {
+  padding-left: 2rem;
+}
+
+.four__column--container--grab--put--one--content h1 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.four__column--container--grab--put--one--content h2 {
+  font-size: 1.3rem;
+}
+
+.four__column--container--grab--put--tow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.four__column--container--grab--put--tow--icon svg {
+  color: #336699;
+}
+
+.four__column--container--grab--put--tow--content {
+  padding-left: 2rem;
+}
+
+.four__column--container--grab--put--tow--content h1 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.four__column--container--grab--put--tow--content h2 {
+  font-size: 1.3rem;
+}
+
+.four__column--container--grab--put--three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.four__column--container--grab--put--three--icon svg {
+  color: #336699;
+}
+
+.four__column--container--grab--put--three--content {
+  padding-left: 2rem;
+}
+
+.four__column--container--grab--put--three--content h1 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.four__column--container--grab--put--three--content h2 {
+  font-size: 1.3rem;
+}
+
+.four__column--container--grab--put--four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.four__column--container--grab--put--four--icon svg {
+  color: #336699;
+}
+
+.four__column--container--grab--put--four--content {
+  padding-left: 2rem;
+}
+
+.four__column--container--grab--put--four--content h1 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.four__column--container--grab--put--four--content h2 {
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=style.css.map */

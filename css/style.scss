@@ -473,6 +473,117 @@ background-color: #f77c29;
         }
     }
    
+    // ------------2nd section-------------
+
+    .container__second--section{
+        margin-top: 3rem;
+        width: 100%;
+
+        &--grab{
+            height: 25rem;
+            width: 100%;
+            display: flex;
+            padding: 3rem 0rem;
+            justify-content: space-around;
+
+            &--left{
+                background-image:
+                url(../img/1-1.jpg);
+                // width: 100%;
+                width: 61rem;
+                background-size: cover;
+                background-position: center;
+                border-radius: 3px;
+
+                &--content{
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
+                    padding-left: 5rem;
+                    line-height: 29px;
+
+                    & h2{
+                        color: #333;
+                        font-weight: 700;
+                        font-size: 1.6rem;
+
+                        & span{
+                            color: #f77c29;
+                            font-size: 1.9rem;
+                        }
+                    }
+                    & h1{
+                        font-size: 2.5rem;
+                        color: #333333;
+                        font-weight: 800;
+                    }
+
+                    & .Collection{
+                        font-weight: 400;
+                        font-size: 2.8rem;
+                        color: #333333;
+
+                        &__tow{
+                            font-size: 1.6rem;
+                            font-weight: 400;
+                            padding-top: .5rem;
+
+                            & span{
+                                color: #f77c29;
+                            }
+                        }
+                    }
+                }
+
+            }
+            &--right{
+                background-image:
+                url(../img/1-2.jpg);
+                // width: 100%;
+                width: 61rem;
+                background-size: cover;
+                background-position: center;
+                border-radius: 3px;
+                &--content{
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
+                    padding-left: 5rem;
+                    line-height: 29px;
+
+                    & h2{
+                        color: white;
+                        font-weight: 700;
+                        font-size: 1.6rem;
+
+                        
+                    }
+                    & h1{
+                        font-size: 2.5rem;
+                        color: white;
+                        font-weight: 800;
+                    }
+
+                    & .Collection{
+                        font-weight: 400;
+                        font-size: 2.8rem;
+                        color: white;
+
+                        &__tow{
+                            font-size: 1.6rem;
+                            font-weight: 400;
+                            padding-top: .5rem;
+                            color: white;
+
+                            & span{
+                                color: #f77c29;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
     
 
     //  _____ end top header_________

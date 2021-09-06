@@ -328,6 +328,10 @@ main .caontainer__part--one--grab {
 
 main .caontainer__part--one--grab--left img {
   padding-top: 10rem;
+  -webkit-animation-name: moveing;
+          animation-name: moveing;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
 }
 
 main .caontainer__part--one--grab--right {
@@ -348,9 +352,22 @@ main .caontainer__part--one--grab--right--div a button {
   border: 2px solid #333;
   border-radius: 3px;
   cursor: pointer;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 main .caontainer__part--one--grab--right--div a button:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .caontainer__part--one--grab--right--div a button:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   background-color: #333;
   color: white;
 }
@@ -777,8 +794,21 @@ main .caontainer__part--one--grab--right--div a button:hover {
 }
 
 .container--third__grab--left--grab--three .button:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   background-color: #333;
   color: white;
+}
+
+.container--third__grab--left--grab--three .button:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  color: #333;
 }
 
 .container--third__grab--right {
@@ -794,6 +824,9 @@ main .caontainer__part--one--grab--right--div a button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container--third__grab--right--grab--one .content {
@@ -824,6 +857,9 @@ main .caontainer__part--one--grab--right--div a button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container--third__grab--right--grab--tow .content {
@@ -854,6 +890,9 @@ main .caontainer__part--one--grab--right--div a button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container--third__grab--right--grab--three .content {
@@ -1056,6 +1095,53 @@ main .caontainer__part--one--grab--right--div a button:hover {
 .five__section--grab--part--one--one img {
   background-size: cover;
   background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.five__section--grab--part--one--one img:hover {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.five__section--grab--part--one--tow img {
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.five__section--grab--part--one--tow img:hover {
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+}
+
+.five__section--grab--part--one--three img {
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.five__section--grab--part--one--three img:hover {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.five__section--grab--part--one--four img {
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.five__section--grab--part--one--four img:hover {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
 }
 
 .five__section--grab--part--tow {
@@ -1087,6 +1173,58 @@ main .caontainer__part--one--grab--right--div a button:hover {
   font-size: 2rem;
   font-weight: 800;
   color: #333;
+}
+
+.five__section--grab--part--tow--one img {
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.five__section--grab--part--tow--one img:hover {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.five__section--grab--part--tow--tow img {
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.five__section--grab--part--tow--tow img:hover {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.five__section--grab--part--tow--three img {
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.five__section--grab--part--tow--three img:hover {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.five__section--grab--part--tow--four img {
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.five__section--grab--part--tow--four img:hover {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
 }
 
 .containersix__second--section {
@@ -3013,5 +3151,39 @@ footer .section__grab--four p {
 
 footer .section__grab--four p:hover {
   color: #336699;
+}
+
+@-webkit-keyframes moveing {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  80% {
+    -webkit-transform: translate(10px);
+            transform: translate(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes moveing {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  80% {
+    -webkit-transform: translate(10px);
+            transform: translate(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
 }
 /*# sourceMappingURL=style.css.map */

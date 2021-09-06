@@ -295,6 +295,10 @@ body{
                     & img{
                         padding-top: 10rem;
                         // padding-left: 10rem;
+                        animation-name: moveing;
+                        animation-duration: 4s;
+
+
                     }
                 }
                 &--right{
@@ -315,11 +319,20 @@ body{
                                 border: 2px solid #333;
                                 border-radius: 3px;
                                 cursor: pointer;
+                                transition: all .2s;
 
                                 &:hover{
+                                    transform: translateY(-3px);
+                                    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+                                }
+                                &:active{
+                                    transform: translateY(-1px);
+                                    box-shadow: 0 5px 10px rgba(0,0,0,.2);
                                     background-color: #333;
                                     color: white;
                                 }
+
+                               
                               
     
                                
@@ -726,8 +739,17 @@ background-color: #f77c29;
                       margin-top: 2rem;
                       cursor: pointer;
                       &:hover{
-                        background-color:#333 ;
-                        color: white; 
+                        transform: translateY(-3px);
+                        box-shadow: 0 10px 20px rgba(0,0,0,.2);
+                        background-color: #333;
+                        color: white;
+                    }
+                    &:active{
+                        transform: translateY(-1px);
+                        box-shadow: 0 5px 10px rgba(0,0,0,.2);
+                        background-color: transparent;
+                        color: #333;
+                       
                     }
 
                     
@@ -747,6 +769,7 @@ background-color: #f77c29;
                 &--grab{
                     &--one{
                         display: flex;
+                        align-items: center;
 
                        
                         & .content{
@@ -774,6 +797,7 @@ background-color: #f77c29;
                     }
                     &--tow{
                         display: flex;
+                        align-items: center;
 
                        
                         & .content{
@@ -800,6 +824,8 @@ background-color: #f77c29;
                     }
                     &--three{
                         display: flex;
+                        align-items: center;
+                      
 
                        
                         & .content{
@@ -1023,6 +1049,75 @@ background-color: #f77c29;
         & img{
             background-size: cover;
             background-position: center;
+           
+            filter: grayscale(0%); 
+
+            cursor: pointer;
+
+            &:hover{
+                filter: grayscale(50%);
+            }
+          
+
+          
+        }
+       }
+       &--tow{
+
+     
+
+        & img{
+            background-size: cover;
+            background-position: center;
+           
+            filter: grayscale(0%); 
+
+            cursor: pointer;
+
+            &:hover{
+                filter: grayscale(80%);
+            }
+          
+
+          
+        }
+       }
+       &--three{
+
+     
+
+        & img{
+            background-size: cover;
+            background-position: center;
+           
+            filter: grayscale(0%); 
+
+            cursor: pointer;
+
+            &:hover{
+                filter: grayscale(50%);
+            }
+          
+
+          
+        }
+      
+       }
+       &--four{
+
+     
+
+        & img{
+            background-size: cover;
+            background-position: center;
+           
+            filter: grayscale(0%); 
+
+            cursor: pointer;
+
+            &:hover{
+                filter: grayscale(50%);
+            }
           
 
           
@@ -1057,6 +1152,89 @@ background-color: #f77c29;
             font-weight: 800;
             color: #333;
         }
+
+        &--one{
+
+     
+
+            & img{
+                background-size: cover;
+                background-position: center;
+               
+                filter: grayscale(0%); 
+    
+                cursor: pointer;
+    
+                &:hover{
+                    filter: grayscale(50%);
+                }
+              
+    
+              
+            }
+           }
+           &--tow{
+
+     
+
+            & img{
+                background-size: cover;
+                background-position: center;
+               
+                filter: grayscale(0%); 
+    
+                cursor: pointer;
+    
+                &:hover{
+                    filter: grayscale(50%);
+                }
+              
+    
+              
+            }
+           }
+           &--three{
+
+     
+
+            & img{
+                background-size: cover;
+                background-position: center;
+               
+                filter: grayscale(0%); 
+    
+                cursor: pointer;
+    
+                &:hover{
+                    filter: grayscale(50%);
+                }
+              
+    
+              
+            }
+           }
+           &--four{
+
+     
+
+            & img{
+                background-size: cover;
+                background-position: center;
+               
+                filter: grayscale(0%); 
+    
+                cursor: pointer;
+    
+                &:hover{
+                    filter: grayscale(50%);
+                }
+              
+    
+              
+            }
+           }
+
+
         
     }
 
@@ -2889,4 +3067,19 @@ background-color: #f77c29;
             }
            }
        }
+   }
+
+   @keyframes moveing {
+  0%{
+      opacity: 0;
+      transform: translateX(-50px);
+  }
+  80%{
+      transform: translate(10px);
+  }
+
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
    }

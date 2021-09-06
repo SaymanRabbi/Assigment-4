@@ -718,6 +718,23 @@ main .caontainer__part--one--grab--right--div a button:active {
 .container--third__grab--left--grab--tow {
   margin: 0 auto;
   width: 40rem;
+  position: relative;
+}
+
+.container--third__grab--left--grab--tow::after {
+  content: "25% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .container--third__grab--left--grab--tow img {
@@ -950,6 +967,8 @@ main .caontainer__part--one--grab--right--div a button:active {
 .forth__section--grab--this--one {
   -webkit-transition: all .2s;
   transition: all .2s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .forth__section--grab--this--one:hover {
@@ -1092,6 +1111,26 @@ main .caontainer__part--one--grab--right--div a button:active {
   color: #333;
 }
 
+.five__section--grab--part--one--one {
+  position: relative;
+}
+
+.five__section--grab--part--one--one::after {
+  content: "5% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
+}
+
 .five__section--grab--part--one--one img {
   background-size: cover;
   background-position: center;
@@ -1118,6 +1157,26 @@ main .caontainer__part--one--grab--right--div a button:active {
           filter: grayscale(80%);
 }
 
+.five__section--grab--part--one--three {
+  position: relative;
+}
+
+.five__section--grab--part--one--three::after {
+  content: "15% off";
+  top: 10px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
+}
+
 .five__section--grab--part--one--three img {
   background-size: cover;
   background-position: center;
@@ -1129,6 +1188,26 @@ main .caontainer__part--one--grab--right--div a button:active {
 .five__section--grab--part--one--three img:hover {
   -webkit-filter: grayscale(50%);
           filter: grayscale(50%);
+}
+
+.five__section--grab--part--one--four {
+  position: relative;
+}
+
+.five__section--grab--part--one--four::after {
+  content: "20% off";
+  top: 10px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .five__section--grab--part--one--four img {
@@ -1175,6 +1254,26 @@ main .caontainer__part--one--grab--right--div a button:active {
   color: #333;
 }
 
+.five__section--grab--part--tow--one {
+  position: relative;
+}
+
+.five__section--grab--part--tow--one::after {
+  content: "5% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
+}
+
 .five__section--grab--part--tow--one img {
   background-size: cover;
   background-position: center;
@@ -1199,6 +1298,26 @@ main .caontainer__part--one--grab--right--div a button:active {
 .five__section--grab--part--tow--tow img:hover {
   -webkit-filter: grayscale(50%);
           filter: grayscale(50%);
+}
+
+.five__section--grab--part--tow--three {
+  position: relative;
+}
+
+.five__section--grab--part--tow--three::after {
+  content: "20% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .five__section--grab--part--tow--three img {
@@ -1481,6 +1600,23 @@ main .caontainer__part--one--grab--right--div a button:active {
 .section__seven--grab--flex--second--left--one {
   -ms-flex-preferred-size: 24%;
       flex-basis: 24%;
+  position: relative;
+}
+
+.section__seven--grab--flex--second--left--one::after {
+  content: "5% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .section__seven--grab--flex--second--left--one .img {
@@ -1576,6 +1712,23 @@ main .caontainer__part--one--grab--right--div a button:active {
 .section__seven--grab--flex--second--left--three {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
+  position: relative;
+}
+
+.section__seven--grab--flex--second--left--three::after {
+  content: "15% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .section__seven--grab--flex--second--left--three .img img {
@@ -1773,6 +1926,23 @@ main .caontainer__part--one--grab--right--div a button:active {
 .section__seven--grab--flex--second--right--three {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
+  position: relative;
+}
+
+.section__seven--grab--flex--second--right--three::after {
+  content: "25% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .section__seven--grab--flex--second--right--three .img img {
@@ -2006,6 +2176,23 @@ main .caontainer__part--one--grab--right--div a button:active {
 .section__eight--grab--flex--second--left--one {
   -ms-flex-preferred-size: 24%;
       flex-basis: 24%;
+  position: relative;
+}
+
+.section__eight--grab--flex--second--left--one::after {
+  content: "35% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .section__eight--grab--flex--second--left--one .img {
@@ -2101,6 +2288,23 @@ main .caontainer__part--one--grab--right--div a button:active {
 .section__eight--grab--flex--second--left--three {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
+  position: relative;
+}
+
+.section__eight--grab--flex--second--left--three::after {
+  content: "25% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .section__eight--grab--flex--second--left--three .img img {
@@ -2146,6 +2350,23 @@ main .caontainer__part--one--grab--right--div a button:active {
 .section__eight--grab--flex--second--left--four {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
+  position: relative;
+}
+
+.section__eight--grab--flex--second--left--four::after {
+  content: "10% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .section__eight--grab--flex--second--left--four .img img {
@@ -2253,6 +2474,23 @@ main .caontainer__part--one--grab--right--div a button:active {
 .section__eight--grab--flex--second--right--tow {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
+  position: relative;
+}
+
+.section__eight--grab--flex--second--right--tow::after {
+  content: "35% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .section__eight--grab--flex--second--right--tow .img img {
@@ -2298,6 +2536,23 @@ main .caontainer__part--one--grab--right--div a button:active {
 .section__eight--grab--flex--second--right--three {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
+  position: relative;
+}
+
+.section__eight--grab--flex--second--right--three::after {
+  content: "2% off";
+  top: 5px;
+  left: 16px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f77c29;
+  color: white;
+  width: 90px;
+  height: 34px;
+  /* z-index: 10; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 .section__eight--grab--flex--second--right--three .img img {

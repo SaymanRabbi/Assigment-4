@@ -666,10 +666,30 @@ background-color: #f77c29;
                 &--tow{
                     margin: 0 auto;
                     width: 40rem;
+                    position: relative;
+
+                    &::after{
+                        content: "25% off";
+                       top: 5px;
+                      left: 16px;
+                       bottom: 0;
+                          right: 0;
+                        position: absolute;
+                         background-color: #f77c29;
+                         color: white;
+                               width: 90px;
+                                  height: 34px;
+    /* z-index: 10; */
+                              font-size: 2rem;
+                              text-align: center;
+                    }
 
                     & img{
                         width: 350px;
                         height: 500px;
+                     
+
+                      
                     }
                         
                 }
@@ -883,6 +903,7 @@ background-color: #f77c29;
             &--one{
 
                 transition: all .2s;
+                backface-visibility: hidden;
 
                 &:hover{
                     
@@ -1043,6 +1064,23 @@ background-color: #f77c29;
         }
 
        &--one{
+           position: relative;
+
+           &::after{ 
+           content: "5% off";
+           top: 5px;
+          left: 16px;
+           bottom: 0;
+              right: 0;
+            position: absolute;
+             background-color: #f77c29;
+             color: white;
+                   width: 90px;
+                      height: 34px;
+               /* z-index: 10; */
+                  font-size: 2rem;
+                  text-align: center;
+        }
 
      
 
@@ -1084,6 +1122,24 @@ background-color: #f77c29;
        }
        &--three{
 
+        position: relative;
+
+        &::after{ 
+        content: "15% off";
+        top: 10px;
+       left: 16px;
+        bottom: 0;
+           right: 0;
+         position: absolute;
+          background-color: #f77c29;
+          color: white;
+                width: 90px;
+                   height: 34px;
+            /* z-index: 10; */
+               font-size: 2rem;
+               text-align: center;
+     }
+
      
 
         & img{
@@ -1104,7 +1160,23 @@ background-color: #f77c29;
       
        }
        &--four{
+        position: relative;
 
+        &::after{ 
+        content: "20% off";
+        top: 10px;
+       left: 16px;
+        bottom: 0;
+           right: 0;
+         position: absolute;
+          background-color: #f77c29;
+          color: white;
+                width: 90px;
+                   height: 34px;
+            /* z-index: 10; */
+               font-size: 2rem;
+               text-align: center;
+     }
      
 
         & img{
@@ -1154,7 +1226,23 @@ background-color: #f77c29;
         }
 
         &--one{
+            position: relative;
 
+            &::after{ 
+            content: "5% off";
+            top: 5px;
+           left: 16px;
+            bottom: 0;
+               right: 0;
+             position: absolute;
+              background-color: #f77c29;
+              color: white;
+                    width: 90px;
+                       height: 34px;
+                /* z-index: 10; */
+                   font-size: 2rem;
+                   text-align: center;
+         }
      
 
             & img{
@@ -1194,7 +1282,23 @@ background-color: #f77c29;
             }
            }
            &--three{
+            position: relative;
 
+            &::after{ 
+            content: "20% off";
+            top: 5px;
+           left: 16px;
+            bottom: 0;
+               right: 0;
+             position: absolute;
+              background-color: #f77c29;
+              color: white;
+                    width: 90px;
+                       height: 34px;
+                /* z-index: 10; */
+                   font-size: 2rem;
+                   text-align: center;
+         }
      
 
             & img{
@@ -1478,6 +1582,23 @@ background-color: #f77c29;
                     //   }
                       &--one{
                         flex-basis: 24%;
+                        position: relative;
+
+                        &::after{ 
+                        content: "5% off";
+                        top: 5px;
+                       left: 16px;
+                        bottom: 0;
+                           right: 0;
+                         position: absolute;
+                          background-color: #f77c29;
+                          color: white;
+                                width: 90px;
+                                   height: 34px;
+                            /* z-index: 10; */
+                               font-size: 2rem;
+                               text-align: center;
+                     }
                         & .img{
                             text-align: center;
                            
@@ -1567,6 +1688,23 @@ background-color: #f77c29;
                     }
                     &--three{
                         flex-basis: 23%;
+                        position: relative;
+
+                        &::after{ 
+                        content: "15% off";
+                        top: 5px;
+                       left: 16px;
+                        bottom: 0;
+                           right: 0;
+                         position: absolute;
+                          background-color: #f77c29;
+                          color: white;
+                                width: 90px;
+                                   height: 34px;
+                            /* z-index: 10; */
+                               font-size: 2rem;
+                               text-align: center;
+                     }
                         & .img{
                            
                             & img{
@@ -1752,6 +1890,23 @@ background-color: #f77c29;
                     }
                     &--three{
                         flex-basis: 23%;
+                        position: relative;
+
+                        &::after{ 
+                        content: "25% off";
+                        top: 5px;
+                       left: 16px;
+                        bottom: 0;
+                           right: 0;
+                         position: absolute;
+                          background-color: #f77c29;
+                          color: white;
+                                width: 90px;
+                                   height: 34px;
+                            /* z-index: 10; */
+                               font-size: 2rem;
+                               text-align: center;
+                     }
                         & .img{
                            
                             & img{
@@ -1969,6 +2124,24 @@ background-color: #f77c29;
                     //   }
                       &--one{
                         flex-basis: 24%;
+
+                        position: relative;
+
+                        &::after{ 
+                        content: "35% off";
+                        top: 5px;
+                       left: 16px;
+                        bottom: 0;
+                           right: 0;
+                         position: absolute;
+                          background-color: #f77c29;
+                          color: white;
+                                width: 90px;
+                                   height: 34px;
+                            /* z-index: 10; */
+                               font-size: 2rem;
+                               text-align: center;
+                     }
                         & .img{
                             text-align: center;
                            
@@ -2058,6 +2231,23 @@ background-color: #f77c29;
                     }
                     &--three{
                         flex-basis: 23%;
+                        position: relative;
+
+                        &::after{ 
+                        content: "25% off";
+                        top: 5px;
+                       left: 16px;
+                        bottom: 0;
+                           right: 0;
+                         position: absolute;
+                          background-color: #f77c29;
+                          color: white;
+                                width: 90px;
+                                   height: 34px;
+                            /* z-index: 10; */
+                               font-size: 2rem;
+                               text-align: center;
+                     }
                         & .img{
                            
                             & img{
@@ -2100,6 +2290,23 @@ background-color: #f77c29;
                     }
                     &--four{
                         flex-basis: 23%;
+                        position: relative;
+
+                        &::after{ 
+                        content: "10% off";
+                        top: 5px;
+                       left: 16px;
+                        bottom: 0;
+                           right: 0;
+                         position: absolute;
+                          background-color: #f77c29;
+                          color: white;
+                                width: 90px;
+                                   height: 34px;
+                            /* z-index: 10; */
+                               font-size: 2rem;
+                               text-align: center;
+                     }
                         & .img{
                            
                             & img{
@@ -2201,6 +2408,24 @@ background-color: #f77c29;
                     }
                     &--tow{
                         flex-basis: 23%;
+
+                        position: relative;
+
+                        &::after{ 
+                        content: "35% off";
+                        top: 5px;
+                       left: 16px;
+                        bottom: 0;
+                           right: 0;
+                         position: absolute;
+                          background-color: #f77c29;
+                          color: white;
+                                width: 90px;
+                                   height: 34px;
+                            /* z-index: 10; */
+                               font-size: 2rem;
+                               text-align: center;
+                     }
                         & .img{
                            
                             & img{
@@ -2243,6 +2468,23 @@ background-color: #f77c29;
                     }
                     &--three{
                         flex-basis: 23%;
+                        position: relative;
+
+                        &::after{ 
+                        content: "2% off";
+                        top: 5px;
+                       left: 16px;
+                        bottom: 0;
+                           right: 0;
+                         position: absolute;
+                          background-color: #f77c29;
+                          color: white;
+                                width: 90px;
+                                   height: 34px;
+                            /* z-index: 10; */
+                               font-size: 2rem;
+                               text-align: center;
+                     }
                         & .img{
                            
                             & img{
